@@ -149,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </blockquote></li>
 <li><p>What are the major benefits of using R projects?</p>
 <blockquote class="blockquote">
-<p>An R project is beneficial because it is associated with a directory where you can store all of you scripts, data and output. This makes sharing or switching computers easy and simplifies reproducibility and project collaboration.</p>
+<p>An R project is beneficial because it is associated with a directory where you can store all of you scripts, data and output. This makes sharing or switching computers easy and simplifies reproducibility and project collaboration (via use of relative directory paths).</p>
 </blockquote></li>
 <li><p>What is git and what is github?</p>
 <blockquote class="blockquote">
@@ -157,7 +157,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </blockquote></li>
 <li><p>What are the two main differences between a tibble and a data.frame?</p>
 <blockquote class="blockquote">
-<p>A tibble is a special data frame used in tidyverse. The two main differences between a tibble and data.frame are in the printing and subsetting. A tibble printing gives us information on the number of observations, columns and only prints and handful of observations (the first 10). Subsetting a tibble always returns another tibble, whereas subsetting a column in a data frame may return a vector, for example.</p>
+<p>A tibble is a special data frame used in tidyverse. The two main differences between a tibble and data.frame are in the printing and subsetting. A tibble printing gives us information on the number of observations, columns and only prints a handful of observations (the first 10). Subsetting a tibble always returns another tibble, whereas subsetting a column in a data frame may return a vector, for example.</p>
 </blockquote></li>
 <li><p>Rewrite the following nested function call using baseR’s chaining operator: arrange(filter(select(as_tibble(iris), starts_with(“Petal”), Species), Petal.Length &lt; 1.55), Species)</p>
 <blockquote class="blockquote">

@@ -20,7 +20,7 @@ suppressPackageStartupMessages(library(tidyverse))
 
 2.  What are the major benefits of using R projects?
 
-    > An R project is beneficial because it is associated with a directory where you can store all of you scripts, data and output. This makes sharing or switching computers easy and simplifies reproducibility and project collaboration.
+    > An R project is beneficial because it is associated with a directory where you can store all of you scripts, data and output. This makes sharing or switching computers easy and simplifies reproducibility and project collaboration (via use of relative directory paths).
 
 3.  What is git and what is github?
 
@@ -28,7 +28,7 @@ suppressPackageStartupMessages(library(tidyverse))
 
 4.  What are the two main differences between a tibble and a data.frame?
 
-    > A tibble is a special data frame used in tidyverse. The two main differences between a tibble and data.frame are in the printing and subsetting. A tibble printing gives us information on the number of observations, columns and only prints and handful of observations (the first 10). Subsetting a tibble always returns another tibble, whereas subsetting a column in a data frame may return a vector, for example.
+    > A tibble is a special data frame used in tidyverse. The two main differences between a tibble and data.frame are in the printing and subsetting. A tibble printing gives us information on the number of observations, columns and only prints a handful of observations (the first 10). Subsetting a tibble always returns another tibble, whereas subsetting a column in a data frame may return a vector, for example.
 
 5.  Rewrite the following nested function call using baseR’s chaining operator: arrange(filter(select(as_tibble(iris), starts_with("Petal"), Species), Petal.Length \< 1.55), Species)
 
